@@ -1,45 +1,45 @@
 import React from "react";
+import energyImg from "../../assets/images/structure.jpg";
+import hospitalImg from "../../assets/images/building.jpg";
+import bridgeImg from "../../assets/images/bridge.jpg";
+import damImg from "../../assets/images/dam.jpg";
+import fireImg from "../../assets/images/1_1.jpg";
+import heritageImg from "../../assets/images/1_2.jpg";
+import industrialImg from "../../assets/images/bulding.jpg";
+import marineImg from "../../assets/images/1_3.jpg";
 
 const markets = [
   {
     title: "Energy/Data Center",
-    image:
-      "https://images.unsplash.com/photo-1558494949-ef526bca4899?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: energyImg,
   },
   {
     title: "Hospital",
-    image:
-      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: hospitalImg,
   },
   {
     title: "Bridges & Flyovers",
-    image:
-      "https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: bridgeImg,
   },
   {
     title: "Dams & Irrigation",
-    image:
-      "https://images.unsplash.com/photo-1574921676638-3444005aa31b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: damImg,
   },
   {
-    title: "Fire Damaged Structures",
-    image:
-      "https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Damaged Structures",
+    image: fireImg,
   },
   {
     title: "Heritage",
-    image:
-      "https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: heritageImg,
   },
   {
     title: "Industrial Structures",
-    image:
-      "https://images.unsplash.com/photo-1563956461-12711685955b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: industrialImg,
   },
   {
     title: "Marine Structures",
-    image:
-      "https://images.unsplash.com/photo-1573062638848-735f49896792?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: marineImg,
   },
 ];
 

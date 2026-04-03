@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import core1 from '../assets/images/core1.jpeg';
+import core2 from '../assets/images/core2.jpeg';
+import core3 from '../assets/images/core3.jpeg';
+import core4 from '../assets/images/core4.jpeg';
+import core5 from '../assets/images/core5.jpeg';
 
 const teamMembers = [
   {
     name: "Dr. (Prof) Veerendra Kumar",
     title: "Founder & Director",
-    image: "https://placehold.co/300x350?text=Dr.+Veerendra+Kumar",
+    image: core1,
     credentials: "FIE, MICI, MISTE, FIGS, MIBC",
     education: [
       "B.Tech in Civil Engineering, IIT Kanpur (1979)",
@@ -25,7 +30,7 @@ const teamMembers = [
   {
     name: "Dr. Anjani Kumar Shukla",
     title: "Managing Director",
-    image: "https://placehold.co/300x350?text=Dr.+Anjani+Kumar+Shukla",
+    image: core2,
     credentials: "MASCE, MIE, MICI",
     education: [
       "Ph.D. in Structural Engineering, IIT (BHU) Varanasi",
@@ -46,7 +51,7 @@ const teamMembers = [
   {
     name: "Dr. Dheeresh Nayak",
     title: "Design Expert",
-    image: "https://placehold.co/300x350?text=Dr.+Dheeresh+Nayak",
+    image: core4,
     credentials: "Ph.D. IIT (BHU) Varanasi",
     education: [
       "Ph.D. in Structural Engineering, IIT (BHU) Varanasi",
@@ -64,7 +69,7 @@ const teamMembers = [
   {
     name: "Mr. Rajesh Ranjan Srivastava",
     title: "Execution Expert",
-    image: "https://placehold.co/300x350?text=Rajesh+Srivastava",
+    image: core5,
     credentials: "B.Tech Civil Engg, MBA (Executive) IIM Calcutta",
     education: [
       "B.Tech in Civil Engineering",
@@ -83,7 +88,7 @@ const teamMembers = [
   {
     name: "Mr. Raghavendra Kumar",
     title: "Execution Expert",
-    image: "https://placehold.co/300x350?text=Raghavendra+Kumar",
+    image: core3,
     credentials: "M.Tech. Structural Engineering",
     education: [
       "M.Tech. in Structural Engineering"

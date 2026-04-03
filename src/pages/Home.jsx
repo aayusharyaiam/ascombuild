@@ -5,8 +5,6 @@ import MarketServed from "../components/home/MarketServed";
 import ProjectLifeCycle from "../components/home/ProjectLifeCycle";
 import Services from "../components/home/Services";
 import Stats from "../components/home/Stats";
-import SocialMedia from "../components/home/SocialMedia";
-import Clients from "../components/home/Clients";
 
 const Home = () => {
   return (
@@ -20,8 +18,6 @@ const Home = () => {
       <ProjectLifeCycle />
       <Services />
       <Stats />
-      <SocialMedia />
-      <Clients />
 
       {/* Structural Issue CTA - This mimics the site style, maybe keep it or move to footer? Keeping for now as page specific content */}
       <div className="bg-red-700 py-8">

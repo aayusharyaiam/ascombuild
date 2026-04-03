@@ -1,46 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import service1 from "../../assets/images/service1.jpg";
+import service2 from "../../assets/images/service2.jpg";
+import service3 from "../../assets/images/service3.jpg";
+import service4 from "../../assets/images/service4.jpg";
+import service5 from "../../assets/images/service5.jpg";
+import service6 from "../../assets/images/service6.jpg";
+import service7 from "../../assets/images/service7.jpg";
+import service8 from "../../assets/images/service8.jpg";
 
 const services = [
   {
-    title: "Concrete Repairs",
-    image:
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Specialized Concrete Repairs",
+    image: service1,
   },
   {
-    title: "Structural Health Monitoring via Sensors",
-    image:
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Structural Audit & Scaffolding",
+    image: service2,
   },
   {
-    title: "Underwater Services",
-    image:
-      "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Residential & Commercial Inspection",
+    image: service3,
   },
   {
-    title: "Retrofit Design",
-    image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Bridge & Infrastructure Survey",
+    image: service4,
   },
   {
-    title: "Structural Strengthening",
-    image:
-      "https://images.unsplash.com/photo-1590059598288-0382379f8c65?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Industrial Structure Strengthening",
+    image: service5,
   },
   {
-    title: "Seismic Retrofit",
-    image:
-      "https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Drone-Aided Structural Inspection",
+    image: service6,
   },
   {
-    title: "External Post Tensioning Systems",
-    image:
-      "https://images.unsplash.com/photo-1585728362615-56fa2d287ce9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Foundation & Grouting Works",
+    image: service7,
   },
   {
-    title: "Structural Steel Fabrication",
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    title: "Reinforcement & Rebar Works",
+    image: service8,
   },
 ];
 
