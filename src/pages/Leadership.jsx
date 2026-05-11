@@ -17,14 +17,15 @@ const teamMembers = [
       "M.Tech in Structural Engineering, IIT Kanpur (1981)",
       "Ph.D. in Structural Engineering, IIT (BHU) Varanasi (1987)"
     ],
-    experience: "36+ years in academia and structural consultancy",
+    experience: "40+ Years of Experience in Academia and Structural Consultancy for Mega Projects",
     position: "Ex Head and Professor, Civil Engineering, IIT (BHU) Varanasi",
     email: "vkumar@ascombuild.com",
     highlights: [
-      "Published 75+ papers in ASCE and Scopus-indexed journals",
-      "Designed multiple buildings for BHU costing 500+ Crores",
-      "Structural consultant for Shree Kashi Vishwanath Corridor",
-      "Expert in transmission line tower foundation design"
+      "Published 75+ research papers in ASCE and Scopus-indexed journals.",
+      "Designed numerous multi-storied buildings at Indian Institute of Technology (BHU) Varanasi with project costs exceeding ₹500 Crores.",
+      "Provided structural design and consultancy services for several bridges and distressed structures, including retrofitting and rehabilitation to extend their service life.",
+      "Expert in transmission line tower foundation design.",
+      "Served as Structural Consultant for the Kashi Vishwanath Corridor and various other projects of national importance."
     ]
   },
   {
@@ -75,8 +76,8 @@ const teamMembers = [
       "B.Tech in Civil Engineering",
       "MBA (Executive), IIM Calcutta"
     ],
-    experience: "Extensive experience in project management and execution",
-    position: "Ex Engineer, UPJVNL (Govt Undertaking) OBRA",
+    experience: "40+ Years Experience in Civil & Infrastructure Projects",
+    position: "Ex-UPJVNL Engineer | Ex-AGM, Moser Baer Projects | Ex-GM, Angle Infra | Chief Design Coordinator, HCC",
     specialization: "Project Management, Execution and strengthening of damaged structures",
     highlights: [
       "Expert in project management and delivery",

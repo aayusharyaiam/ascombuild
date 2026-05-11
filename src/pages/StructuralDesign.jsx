@@ -18,9 +18,14 @@ const StructuralDesign = () => {
 
                 <section>
                     <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Structural Design</h2>
-                    <p className="text-lg leading-relaxed">
-                        <strong className="font-bold text-gray-900 dark:text-white">Structure Design:</strong> ASCOM provide the structural design of all type of buildings, water tank and river crossing foundation for transmission line towers, STP etc. We have highly qualified and competent team of structure designers and consultant from several IITS and NITS.
-                    </p>
+                    <div className="text-lg leading-relaxed space-y-4">
+                        <p>
+                            ASCOM provides structural design services for a wide range of mega structures, including bridges, dams, chimneys, high-rise buildings, water tanks, river-crossing structures, transmission line tower foundations, STPs, and other infrastructure projects.
+                        </p>
+                        <p>
+                            We have a highly qualified and competent team of structural designers and consultants from premier institutes such as the Indian Institutes of Technology (IITs) and National Institutes of Technology (NITs), delivering safe, economical, and innovative engineering solutions.
+                        </p>
+                    </div>
                 </section>
 
             </div>

@@ -38,8 +38,8 @@ const servicesList = [
     icon: "📐"
   },
   {
-    title: "Proof Consultancy",
-    description: "Expert proof checking of complex designs for concrete and steel structures, ensuring compliance with latest codes and optimization of structural efficiency.",
+    title: "Detailed Design & Proof Checking Expertise",
+    description: "Expert in Detailed Structural Design and Proof Checking of complex structures, which include reinforced concrete structures, prestressed and post-tensioned structures, composite structures, and steel structures, utilizing modern AI tools and advanced engineering software.",
     icon: "✓"
   },
   {
