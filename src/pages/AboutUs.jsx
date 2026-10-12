@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import heroImage from "../assets/images/about-section.webp";
+import heroImage from "../assets/images/about_us.png";
 import core1 from "../assets/images/core1.jpeg";
+import aboutUsBg from "../assets/images/aboutus_bg.png";
 
 const AboutUs = () => {
   return (
     <div className="bg-white dark:bg-gray-800 transition-colors duration-200 font-sans pt-20">
       {/* Page Title / Hero */}
-      <div className="relative bg-gray-900 py-16 flex flex-col justify-center items-center text-center text-white">
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+      <div className="relative py-16 flex flex-col justify-center items-center text-center text-white" style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${aboutUsBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
+      }}>
         <div className="z-10 relative">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl mb-4">About Us</h1>
           <div className="flex space-x-2 text-sm md:text-base justify-center">

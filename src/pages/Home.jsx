@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../components/home/Hero";
 import AboutUs from "../components/home/AboutUs";
 import MarketServed from "../components/home/MarketServed";
+import BridgePdfViewer from "../components/home/BridgePdfViewer";
 import ProjectLifeCycle from "../components/home/ProjectLifeCycle";
 import Services from "../components/home/Services";
 import Stats from "../components/home/Stats";
@@ -12,9 +13,7 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <MarketServed />
-      <div className="text-center py-4 bg-red-600 text-white font-bold text-xl uppercase tracking-wider">
-        {/* Small Banner between sections if needed. For now just spacing */}
-      </div>
+      <BridgePdfViewer />
       <ProjectLifeCycle />
       <Services />
       <Stats />

@@ -1,5 +1,6 @@
 import React from 'react';
 import ServicePageLayout from '../components/ServicePageLayout';
+import consultancyImage from '../assets/images/image copy 20.png';
 
 const Consultancy = () => {
     return (
@@ -7,10 +8,9 @@ const Consultancy = () => {
             <div className="space-y-8 text-gray-700 dark:text-gray-300">
 
                 <div className="flex flex-col items-center mb-8">
-                    <h2 className="text-2xl font-medium text-gray-800 dark:text-gray-200 mb-4">Box Girder of Metro got some cracks</h2>
                     <div className="w-full max-w-lg bg-gray-200 dark:bg-gray-700 h-64 rounded-lg flex items-center justify-center text-gray-500 overflow-hidden">
                         <img 
-                            src="https://images.unsplash.com/photo-1524813686514-a5756c97759e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                            src={consultancyImage} 
                             alt="Box Girder Structure" 
                             className="w-full h-full object-cover"
                         />

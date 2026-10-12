@@ -1,5 +1,6 @@
 import React from 'react';
 import ServicePageLayout from '../components/ServicePageLayout';
+import bridgeImage from '../assets/images/image copy 12.png';
 
 const Bridges = () => {
     return (
@@ -12,7 +13,7 @@ const Bridges = () => {
                             <h3 className="text-xl font-bold text-red-800 dark:text-red-400 mb-2">Why do we need ANSYS or any analysis software to assess the structure</h3>
                             <div className="mt-4 h-48 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center overflow-hidden">
                                 <img 
-                                    src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                                    src={bridgeImage} 
                                     alt="Bridge Structure Analysis" 
                                     className="w-full h-full object-cover"
                                 />

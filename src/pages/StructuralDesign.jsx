@@ -1,5 +1,6 @@
 import React from 'react';
 import ServicePageLayout from '../components/ServicePageLayout';
+import designImage from '../assets/images/image copy 23.png';
 
 const StructuralDesign = () => {
     return (
@@ -9,7 +10,7 @@ const StructuralDesign = () => {
                 <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
                     <div className="h-64 sm:h-96 bg-gray-300 dark:bg-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-400 overflow-hidden">
                         <img 
-                            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
+                            src={designImage} 
                             alt="Structural Design Analysis" 
                             className="w-full h-full object-cover"
                         />

@@ -1,5 +1,6 @@
 import React from 'react';
 import ServicePageLayout from '../components/ServicePageLayout';
+import skyscraperImage from '../assets/images/image copy 16.png';
 
 const Skyscrapers = () => {
     return (
@@ -38,13 +39,10 @@ const Skyscrapers = () => {
                     </ul>
                 </section>
 
-                <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {/* Placeholders for images from screenshot */}
-                    <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg text-gray-500">
-                        Image: Structural Failure
-                    </div>
-                    <div className="bg-gray-200 h-64 flex items-center justify-center rounded-lg text-gray-500">
-                        Image: Restoration Diagram
+                <section className="flex justify-center">
+                    {/* Image for Skyscrapers */}
+                    <div className="w-full max-w-2xl bg-gray-200 dark:bg-gray-700 h-64 flex items-center justify-center rounded-lg text-gray-500 overflow-hidden">
+                        <img src={skyscraperImage} alt="Skyscrapers Structural Analysis" className="w-full h-full object-cover" />
                     </div>
                 </section>
             </div>
